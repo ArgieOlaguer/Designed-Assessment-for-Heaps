@@ -36,7 +36,7 @@ void deleteRoot(vector<int>& heap) {
         cout << "Party is empty! Noone to remove from party.\n";
         return;
     }
-    cout << "Removing weakest hero " << heap[0] << " from the current party.\n";
+    cout << "Hero " << heap[0] << " was sent to battle.\n";
     heap[0] = heap.back();
     heap.pop_back();
     int n = heap.size(), i = 0;
